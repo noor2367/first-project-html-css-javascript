@@ -444,3 +444,75 @@
     margin-top: 10px;
     color: #4d4c4c9c;
 }
+/* contact section code start here */
+.contact-container{
+    width: 1000px;
+    margin: auto;
+    border: 1px solid red;
+    padding-bottom: 100px;
+}
+.form-parent{
+    background-color: #eaecf0;
+    display: flex;
+}
+.fullname-email-parent{
+    display:flex;
+}
+.fullname-email-parent input{
+    width:200px;
+    height:20px;
+    margin: 0 20px;
+    padding: 0 10px;
+    border: none;
+}
+.fullname-email-parent h4{
+    margin: 40px 20px 10px 20px;
+}
+.form-tag{
+    width: 600px;
+}
+.input-subject{
+    width: 85%;
+    height: 40px;
+    margin: 0 20px;
+    padding: 0 10px;
+    border: none;
+}
+.input-subject-text{
+    margin: 20px 20px 10px 20px;
+    
+}
+.input-textarea{
+    width: 85%;
+    height: 100px;
+    margin: 0 20px;
+    border: none;
+    padding: 5px 10px;
+}
+.input-button{
+    background-color:#3252af;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin:20px 20px;
+    border: none;
+}
+.form-address-parent{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.form-single-address{
+    text-align: center;
+    padding: 0 10px;
+}
+.form-single-address i{
+    background-color: #3252af;
+    color: white;
+    padding: 20px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.form-single-address span{
+    font-weight: bold;
+}
